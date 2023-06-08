@@ -109,7 +109,7 @@ align-items: center;}
 .login{
     width: 400px;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.411);
     display: flex;
     opacity: 1.0;
   }
@@ -126,14 +126,15 @@ align-items: center;}
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
     padding: 4px;
+    color: rgb(255, 255, 255);
   }
 
   input{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
   }
   #umbrelogo{
     height: 40px;
@@ -145,4 +146,5 @@ align-items: center;}
   #submit {
     /*margin-left: 25px; */
     margin: 0 auto;
+    cursor:pointer
   }
