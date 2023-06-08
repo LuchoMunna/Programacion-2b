@@ -82,18 +82,31 @@ align-items: center;}
     background-color: black;
   }
 
-  .logo{
-    background-image: url(https://www.pngkey.com/png/full/978-9785792_the-umbrella-corporation-logo-logo-umbrella-corporation-png.png);
+.logo {
+  position: relative;
+  z-index: 1;
+}
+
+.logo:before{
+    content:"";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
     background-size: cover;
-    width: 400px;
+    z-index: -1;
+    opacity: .5;
+    /*width: 400px;
     height: 400px;
     opacity: 0.1;
     top: 22%;
     left: 35%;
-    bottom: 50%;
+    bottom: 50%; */
+    background-image: url(https://www.pngkey.com/png/full/978-9785792_the-umbrella-corporation-logo-logo-umbrella-corporation-png.png);
   }
 
-  .login{
+.login{
     width: 400px;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.534);
@@ -130,5 +143,6 @@ align-items: center;}
   }
 
   #submit {
-    margin-left: 25px;
+    /*margin-left: 25px; */
+    margin: 0 auto;
   }
