@@ -1,0 +1,16 @@
+.tabla{
+    display: grid;
+    background-color: brown;
+    padding: 10px;
+    grid-template-columns:auto auto auto;
+
+}
+
+.item1{
+    background-color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+    padding:20px;
+    border:1px solid  black;
+
+}

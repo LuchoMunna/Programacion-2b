@@ -1,0 +1,15 @@
+
+.formulario {text-align: center ;}
+label{display: inline-block; width: 100px;}
+body{background-image: url(https://wallpaperaccess.com/full/7200520.jpg);background-position: 50% 40%;}
+#si{color: aliceblue;}
+#no{color: aliceblue;}
+.botons{background-color: black;color: rgb(255, 255, 255);border-color:rgb(255, 255, 255)}
+body{margin: auto;display: flex;justify-content: center;color: aliceblue;}
+h1{color: rgb(39, 112, 247);text-shadow: 1px 2px 1px rgb(163, 165, 165);}
+h3{font-style: italic; color: aliceblue;}
+form{border-style: groove ;padding: 20px;width: 200px;text-align: center;background-image: url(https://comojuega.files.wordpress.com/2013/11/hd-desktop-wallpaper-hd-dark-black-wallpapers-dark-black-wallpaper-dark-background-dark-wallpaper-23-1-1600x1000.jpg?w=810);}
+form{border-color: rgb(80, 80, 80); border-width: 6px;}
+form{border-top-color: rgb(226, 43, 180);border-bottom-color: blue;border-right-color: blue;border-left-color: rgb(226, 43, 180);}
+label{color: azure;}
+input{border-color: rgb(89, 19, 155);}

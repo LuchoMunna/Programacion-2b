@@ -1,0 +1,16 @@
+p{color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-left: 600px;
+    margin-right: 40px;
+    border-style:dotted;}
+h1{color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-right: 400px;
+    margin-left: 30px;
+    border-style: dashed;
+    padding: 1%;}
+html{background-color: rgb(255, 145, 2);}

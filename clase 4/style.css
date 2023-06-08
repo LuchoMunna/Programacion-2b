@@ -1,0 +1,101 @@
+body{
+    width: 90%;
+    margin: 20px auto;
+    font-family: "Verdana", sans-serif;
+    font-size: 12px;
+}
+
+h1{
+    margin: 20px 0;
+    border-bottom: 1px solid #000;
+}
+
+.comun{
+    font-size: 5em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.uno{
+    background-color: red;
+}
+
+.dos{
+    background-color: yellow;
+}
+
+.tres{
+    background-color: green;
+}
+
+.cuatro{
+    background-color: blue;
+}
+
+/* BLOCK ****************************************/
+
+.block div{
+    width: 25%;
+    display: block;
+    /* no puedo ponerlos uno al lado del otro */
+}
+
+/* INLINE ****************************************/
+
+.inline{
+    margin: 110px 0 150px 0;
+}
+.inline div{
+    width: 50%;
+    display: inline;
+    padding: 20px;
+    /* no puedo darle anchura y se inventa un espacio entre elementos */
+}
+
+/* INLINE-BLOCK ****************************************/
+
+.inline-block div{
+    width: 25%;
+    display: inline-block;
+    /* hay una separaciÃ³n invisible entre elementos */
+}
+
+/* FLEX ****************************************/
+
+.flex{
+    display: flex;
+}
+
+.flex div{
+    width: 25%;
+}
+
+
+/* FLOAT-LEFT ****************************************/
+
+.float-left{
+    height: 250px;
+    /* me obliga a dar una altura al elemento padre*/
+}
+
+.float-left div{
+    width: 25%;
+    float: left;
+}
+
+/* FLOAT-RIGHT ****************************************/
+
+.float-right{
+    height: 250px;
+    /* me obliga a dar una altura al elemento padre*/
+}
+
+.float-right div:first-child{
+    width: 25%;
+    float: left;
+}
+
+.float-right div:last-child{
+    width: 25%;
+    float: right;
+}
