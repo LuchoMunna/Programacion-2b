@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://wallpaperset.com/w/full/5/d/9/442819.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+.propa{
+    background-image: url(https://i.pinimg.com/736x/f6/e4/2e/f6e42ecd277c190f674774dc2dc3b3d9--umbrella-corporation-resident-evil.jpg);
+    height: 440px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
