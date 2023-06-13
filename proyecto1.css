@@ -185,3 +185,48 @@ align-items: center;}
     color: #fff;
     border-color: #000000;
   }
+
+  /* DESPLEGABLE*/
+  
+  .desplegable{
+    display: inline-block;
+    position: relative;
+    width: 94px;
+
+  }
+  
+  .desplegablecontenido{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+
+  .desplegable:hover .desplegablecontenido{
+    display: block;
+  }
+
+  .desplegablecontenido a {
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    width:100%;
+  }
+
+  .desplegablecontenido a:hover{
+    color:#000000;
+    background-color:#ff000080 ;
+  }
+
+  .botonmenu{
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.637);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    background:none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 50px;
+  }
