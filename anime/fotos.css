@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://wallpaperset.com/w/full/5/d/9/442819.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+.propa{
+    background-image: url(https://i.gyazo.com/931aa3174cfd93a946c185e6059c5e99.png);
+    height: 600px;
+    width: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: top right;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
