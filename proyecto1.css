@@ -192,7 +192,13 @@ align-items: center;}
     display: inline-block;
     position: relative;
     width: 94px;
+    margin-left: 150px;
+  }
 
+  .botonmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .desplegablecontenido{
