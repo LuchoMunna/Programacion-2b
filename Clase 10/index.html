@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
+
+    <section class="container">
+        <h2 class="titulo justify-content-center d-flex align-items-center ml-3" id="titulo">
+            JS
+        </h2>
+    </section>
     
+    <!-- <button class="btn btn-success" type="button" onclick="document.getElementById('titulo').innerHTML = Date()">
+        BOTONASOOO
+    </button> -->
+    
+
+    <section class="cajita justify-content-center d-flex align-items-center ml-3">
+
+
+    <button class="btn btn-success ml-3" type="button" onclick="document.getElementById('titulo').innerHTML = ('CHADERE')">
+        PA AYA
+    </button>
+
+    <button class="btn btn-success ml-3" type="button" onclick="document.getElementById('titulo').innerHTML = ('DAIZQUIER')">
+        PA ACA
+    </button>
+    </section>
+    <script>
+        /*
+        atributos: caracteristicas de un elemento
+        metodos/funciones: lo que hace elemento
+        en el btn llamamos la etiqueta para escribir la fecha al hacer click en el boton
+        ""=""ES UNA ASIGNACION
+
+        */
+        document.getElementsByClassName ("titulo") .innerHTML = "hola";
+    </script>
+
+    <script src="../js/bootstrap.js"></script>
 </body>
 </html>
