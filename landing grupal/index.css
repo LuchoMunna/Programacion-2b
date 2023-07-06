@@ -21,6 +21,7 @@ img{
 
 h3{
     color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
 }
 
 .formulario{
@@ -31,7 +32,7 @@ h3{
     flex-direction: column;
     gap: 6px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 button{
@@ -131,7 +132,7 @@ small{
     }
 
     textarea{
-        width:10rem;
+        width:15rem;
     }
 
     button{
