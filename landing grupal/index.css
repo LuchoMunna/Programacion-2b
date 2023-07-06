@@ -38,6 +38,7 @@ input{
     background-color:rgb(116, 115, 115) ;
     color: azure;
     border:0;
+    opacity: 0.7;
 }
 
 ::placeholder {
@@ -48,12 +49,14 @@ textarea{
     background-color:rgb(116, 115, 115) ;
     color: azure;
     border:0;
+    opacity: 0.7;
 }
 body{
     background-image: url(./fondo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    background-position: fixed;
 }
 
 .pie{
