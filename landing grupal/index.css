@@ -34,22 +34,37 @@ h3{
     margin-top: 10%;
 }
 
+button{
+    position: relative;
+    left:16rem;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 12px;
+    padding: 2px;
+    background-color: rgb(146, 7, 7);
+    border-width: 0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
 input{
-    background-color:rgb(116, 115, 115) ;
-    color: azure;
+    background-color:rgba(255, 253, 253, 0.692) ;
+    color:rgb(53, 53, 53);
     border:0;
-    opacity: 0.7;
+    height: 1.4rem;
 }
 
 ::placeholder {
-    color: #ffffff !important;
+    color:rgb(53, 53, 53) !important;
 }
 
 textarea{
-    background-color:rgb(116, 115, 115) ;
-    color: azure;
+    background-color:rgba(255, 253, 253, 0.692) ;
+    color:rgb(53, 53, 53);
     border:0;
-    opacity: 0.7;
 }
 body{
     background-image: url(./fondo.jpeg);
@@ -116,6 +131,12 @@ small{
     }
 
     textarea{
-        width:15rem;
+        width:10rem;
+    }
+
+    button{
+        left:5.4rem;
+        height: 1;
+        width: 3;
     }
 }
