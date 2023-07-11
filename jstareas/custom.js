@@ -13,12 +13,15 @@ console.log(nombre + " " + edad);
 
 
 function horizontal(){
-    console.log(document.getElementsByClassName("cajas")[0].classList)
-    document.getElementsByClassName('cajas')[0].className += " cajas2";
+    //console.log(document.getElementsByClassName("cajas")[0].classList) checkea clases
+    document.getElementsByClassName('cajas')[0].classList.add ("cajas2");
     console.log(document.getElementsByClassName("cajas")[0].classList)
 }
 
 function vertical(){
+    
+    document.getElementsByClassName('cajas')[0].classList.remove("cajas2");
     console.log(document.getElementsByClassName("cajas")[0].classList)
-    document.getElementsByClassName('cajas')[0].className -= " cajas2";
-}
+} 
+
+
