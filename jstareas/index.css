@@ -1,0 +1,16 @@
+.cajas{
+    display: flex;
+    flex-direction: row;
+}
+
+.cajas2{
+    display: flex;
+    flex-direction: column;
+}
+
+.cajas3{
+    background-color: aqua;
+    border: 2px solid black;
+    width: 25%;
+    height: 50px;
+}
