@@ -17,5 +17,17 @@ edad2=prompt("Ingrese edad de la segunda persona")
 
 
 if (apellido == apellido2){
-    document.getElementsByClassName("respuesta")[0].innerHTML="Podrian ser parientes";
+    document.getElementsByClassName("respuesta")[0].innerHTML = "Podrian ser parientes";
+}
+
+else if(edad == edad2){
+    document.getElementsByClassName("respuesta")[0].innerHTML = "Tienen la misma edad";
+}
+
+else if (nombre == nombre2 && edad == edad2 && apellido == apellido2){
+    document.getElementsByClassName("respuesta")[0].innerHTML = "Son la misma persona";
+}
+
+else {
+    document.getElementsByClassName("respuesta")[0].innerHTML = "son personas diferentes";
 }
