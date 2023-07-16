@@ -1,12 +1,12 @@
-console.log("Lucho");
-console.log(5 + 5);
-console.log( 5==6 );
-document.write("holas");
+//console.log("Lucho");
+//console.log(5 + 5);
+//console.log( 5==6 );
+//document.write("holas");
 
-const nombre="lucho";
-const edad="26";
+//const nombre="lucho";
+//const edad="26";
 
-console.log(nombre + " " + edad);
+//console.log(nombre + " " + edad);
 
 
 
@@ -30,3 +30,7 @@ function invisible(){
     document.getElementsByClassName('cajas')[0].classList.add("nocajas")
 
 }
+
+
+
+var edad = prompt("Cuantos años tenes")

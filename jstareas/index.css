@@ -13,8 +13,43 @@
     border: 2px solid black;
     width: 25%;
     height: 50px;
+    width: 50px;
 }
 .nocajas
 {
     display:none
 }
+
+body{
+    background-color: gray;
+}
+
+
+button{
+    border: 1px solid black;
+    background:red ;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: rgb(238, 255, 0);
+    
+}
+
+.botones{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 300px;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
