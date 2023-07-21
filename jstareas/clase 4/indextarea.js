@@ -19,3 +19,7 @@ switch(funcion){
         console.log(numero1 * numero2)
         break;
 }
+
+// opciones
+//parsefloat 
+//parselint
