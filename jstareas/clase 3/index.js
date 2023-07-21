@@ -40,3 +40,4 @@ for(let i=0;i<6;i++){
     menu.push(prompt("agregue una comida"));
 }
 
+
