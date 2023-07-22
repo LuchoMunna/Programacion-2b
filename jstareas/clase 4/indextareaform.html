@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./indextareaform.css">
 </head>
 <body>
 
     <form id="form" action="">
         <label for="numero1">NUMERITO 1</label>
         <input type="number" name="numero1" id="numero1" placeholder="numero">
+        <label for="numero2">NUMERITO 2</label>
+        <input type="number" name="numero2" id="numero2" placeholder="numero2">
+        <label for="opera">OPERACION</label>
+        <input type="text" name="opera" id="opera" placeholder="operacion">
         
-        <button id="enviar" type="submit" onclick="boton()">Dale Gas</button>
+        <button id="enviar" type="button" onclick="boton()">DALE GAS</button>
+        <div class="respuesta"></div>
     </form>
 
 

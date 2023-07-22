@@ -67,16 +67,19 @@ alert("Password Correcta");
 
 //switch
 
-const estacion = prompt("ingresa estacion")
+// const estacion = prompt("ingresa estacion")
 
 
-switch(estacion){
-    case "invierno":
-        console.log ("hace frio");
-        break;
-    case "verano":
-        console.log("hace calor");
-        break;
-    default:
-    console.log ("lo ingresado no es una estacion...")
-}
+// switch(estacion){
+//     case "invierno":
+//         console.log ("hace frio");
+//         break;
+//     case "verano":
+//         console.log("hace calor");
+//         break;
+//     case "otoño":
+//         console.log("se caen hojas");
+//         break;
+//         default:
+//     console.log ("lo ingresado no es una estacion...")
+// }

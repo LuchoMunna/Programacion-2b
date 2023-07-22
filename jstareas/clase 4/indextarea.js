@@ -7,16 +7,16 @@ numero2 = parseInt(numero2);
 
 switch(funcion){
     case "suma":
-        console.log(numero1 += numero2)
+        alert(numero1 += numero2)
         break;
     case "resta":
-        console.log(numero1 - numero2)
+        alert(numero1 - numero2)
         break;
     case "division":
-        console.log(numero1 / numero2)
+        alert(numero1 / numero2)
         break;
     case "multiplicacion":
-        console.log(numero1 * numero2)
+        alert(numero1 * numero2)
         break;
 }
 
