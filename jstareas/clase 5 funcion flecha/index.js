@@ -82,3 +82,6 @@ const edadEsPar = (objetoPersona) =>{ //objetoPersona es el nombre de un objeto
 }
 
 console.log(edadEsPar(persona));
+
+
+//tarea crear objetos constantes
