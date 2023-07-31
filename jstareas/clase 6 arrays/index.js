@@ -42,3 +42,46 @@ pelis.forEach(function(peli,index){
 
 pelis.push("harry potter 3"); //agrega al final de la lista
 
+//pop elimina el ultimo item de un array
+
+let ultimo = pelis.pop(); // elimina el ultimo de todos y devuelve ese resultado
+// si el array esta vacio devuelve undefined
+
+//agregar un elemento al principio de un array
+
+nuevaLongitud = pelis.unshift("el hobbit");
+
+//eliminar primer elemento de array
+
+let primero = pelis.shift();// si el array esta vacio devuelve undefined
+
+// indice del objeto, si encuentra un match devuelve el indice de la posicion (posicion de elemento)
+let posicion = pelis.indexOf("el hobbit");
+
+//eliminar unico elemento mediante su posicion
+
+let elementoEliminado = pelis.splice(1, 1);  //(posicion que empiezo, cantidad de argumentos a eliminar)
+
+// si uso (0, pelis.lenght) elimino todo el array
+
+//copiar un array
+
+let arrayCopiado = pelis.slice();
+
+//cantidad de elementos dentro de un array
+
+let cantidad = arrayCopiado.length;
+
+//FOREACH tradicional
+
+const numeros = [45, 4, 10, 15, 16, 1, 25]
+
+
+// for (elemento in array) ( es un for para arrays )
+    for (let numero in numeros){
+        if (numero > 10) console.log(numero);
+    }
+
+
+
+
