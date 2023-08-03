@@ -63,8 +63,8 @@ class Auto extends Vehiculo { // la clase auto es hija de vehiculo, hereda todo 
 
 
 class Tarea {
-    constructor (id, titulo, fechaCreadas) {
-        this.id = id;
+    constructor (idTarea, titulo, fechaCreadas) {
+        this.idTarea = idTarea;
         this.titulo = titulo;
         this.completada = false;
         this.fechaCreadas = fechaCreadas;
@@ -74,19 +74,19 @@ class Tarea {
         this.completada = true;
     }
 
-    get id () {
-        return this.id;
+    idTarea () {
+        return this.idTarea;
     }
 
-    get completada () {
+    completada () {
         return this.completada;
     }
 
-    get titulo () {
+    titulo () {
         return this.titulo;
     }
 
-    get fechaCreadas () {
+    fechaCreadas () {
         return this.fechaCreadas;
     }
 }
