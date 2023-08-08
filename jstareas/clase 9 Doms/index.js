@@ -41,3 +41,6 @@ pe2.innerHTML = "Llegue recargado!"
 pe2.id = "textos"
 
 console.log(seccions.outerHTML);
+
+
+//1) hacer dos secciones, que en la primera haya 2 divs, uno con una "clase", el otro con un "id", y el que tiene la clase asignada, tenga un "p" de hijo con un texto que diga "hola" con color rojo y tamaño de letra de 32px
