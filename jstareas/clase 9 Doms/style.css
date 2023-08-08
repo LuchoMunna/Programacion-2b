@@ -1,0 +1,15 @@
+#texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(253, 0, 0);
+    font-weight: bold;
+}
+
+#textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(253, 0, 0);
+    font-weight: bold;
+}
