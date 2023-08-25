@@ -17,7 +17,7 @@
         let resultado
 
     function boton () {
-        let numero1 =document.getElementById("numero1").value;
+        let numero1 = document.getElementById("numero1").value;
         console.log(numero1)
         let numero2 = document.getElementById("numero2").value;
         console.log(numero2)
