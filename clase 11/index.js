@@ -9,7 +9,7 @@ let objeto1 ={
 };
 
 let objeto2 ={
-    Producto: "medias",
+    Producto: "medias", 
     Precio: 350,
     Imagen: "https://i.pinimg.com/originals/db/22/03/db2203c0b79ce7afa346daf972edab28.png"
 
