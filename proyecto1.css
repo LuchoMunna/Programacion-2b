@@ -106,13 +106,12 @@ align-items: center;}
   left: 80px;
   top: 50%; /* Centramos verticalmente los botones dentro del header */
   transform: translateY(-50%); /* Centramos verticalmente los botones dentro del header */
-
   }
 
   .boton:hover{
     color: rgba(214, 31, 31, 0.808);
     background-color: black;
-    scale: 1.2;
+    scale: 1.1;
   }
 
 .logo {

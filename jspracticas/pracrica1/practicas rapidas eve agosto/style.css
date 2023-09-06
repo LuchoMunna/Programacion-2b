@@ -1,0 +1,30 @@
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fd0000;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Alinea el logo a la izquierda y los botones a la derecha */
+    align-items: center; /* Centra verticalmente los elementos en el header */
+    padding: 10px; /* Añade espacio alrededor del contenido del header */
+  }
+  
+  .logo {
+    /* Estilo para el logo si es necesario */
+  }
+  
+  .logo img {
+    width: 100px; /* Ajusta el ancho del logo según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+  }
+  
+  .botones {
+    /* Estilo para los botones si es necesario */
+  }
+  
+  /* Resto de los estilos para la página */
+  
+  

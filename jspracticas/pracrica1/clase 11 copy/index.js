@@ -44,10 +44,12 @@ food.forEach((comida, index) => {
     </div>`
 
     lista.appendChild(list);
-    const boton = document.querySelectorAll(".btn")
+    
+    const boton = list.querySelectorAll(".btn")
     boton.addEventListener('click', (e) =>{
-    carrito.push(comida)
+    carrito.push(food[index])
     e.stopPropagation();
     console.log(carrito); 
     });
 });
+
